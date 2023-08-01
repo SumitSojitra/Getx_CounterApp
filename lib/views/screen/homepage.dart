@@ -19,6 +19,9 @@ CounterController c1 = Get.put(CounterController());
       appBar: AppBar(
         title: Text("Home Page"),
         centerTitle: true,
+        actions: [
+          IconButton(onPressed: (){}, icon: Icon(Icons.sunny))
+        ],
       ), floatingActionButton: Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
