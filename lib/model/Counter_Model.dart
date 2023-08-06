@@ -6,3 +6,4 @@ class CounterModel{
   CounterModel({required this.counter});
 
 }
+

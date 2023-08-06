@@ -1,3 +1,4 @@
+import 'package:animation_flutter_app/views/screen/cartPage.dart';
 import 'package:animation_flutter_app/views/screen/detailPage.dart';
 import 'package:animation_flutter_app/views/screen/homepage.dart';
 import 'package:flutter/material.dart';
@@ -8,10 +9,13 @@ void main(){
     debugShowCheckedModeBanner: false,
     theme: ThemeData(useMaterial3: true),
     getPages: [
+      // GetPage(
+      //   name: '/',page: ()=> HomePage(),
+      // ),
       GetPage(
-        name: '/',page: ()=> HomePage(),
-      ),  GetPage(
-        name: '/detail',page: ()=> DetailPage(),
+        name: '/',page: ()=> DetailPage(),
+      ),GetPage(
+        name: '/Cart',page: ()=> CartPage(),
       ),
     ],
   ));

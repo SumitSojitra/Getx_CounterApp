@@ -17,7 +17,7 @@ CounterController c1 = Get.put(CounterController());
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Page"),
+        title: Text("Counter"),
         centerTitle: true,
         actions: [
           IconButton(onPressed: (){}, icon: Icon(Icons.sunny))
